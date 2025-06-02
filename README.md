@@ -92,5 +92,5 @@ MIT License — free to use, modify, and distribute. See [LICENSE](./LICENSE) fo
 ## 📬 Contact
 
 Questions, ideas, or bugs? Feel free to reach out!  
-**GitHub**: [github.com/yourprofile/logger-unity]  
+**GitHub**: https://github.com/AndriiSviatenko/Logger-Lightweight-Flexible-Debugging-Tool-for-Unity  
 **Email**: sviatenkoandrii@gmail.com
