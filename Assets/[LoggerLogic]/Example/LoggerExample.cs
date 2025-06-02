@@ -7,18 +7,18 @@ public class LoggerExample : MonoBehaviour
 
     private void Awake()
     {
+        // Init Cfg
         CustomLogger.Config = loggerConfig;
 
-        // Крок 2: Приклади логування
-        CustomLogger.Log("Це звичайний лог (System)", CustomLogger.LogCategory.System);
-        CustomLogger.LogWarning("Це попередження (UI)", CustomLogger.LogCategory.UI);
-        CustomLogger.LogError("Це помилка (Gameplay)", CustomLogger.LogCategory.Gameplay);
+        // Example Log
+        CustomLogger.Log("This is a system log", CustomLogger.LogCategory.System);
+        CustomLogger.LogWarning("UI warning", CustomLogger.LogCategory.UI);
+        CustomLogger.LogError("Gameplay error", CustomLogger.LogCategory.Gameplay);
 
-        // Крок 3: Лог об'єкта
         Vector3 position = transform.position;
         CustomLogger.Log(position, CustomLogger.LogCategory.Other);
 
-        // Крок 4: Маркер логування
+        // Mark Log
         CustomLogger.Mark("Start Game Flow", CustomLogger.LogCategory.Gameplay);
     }
 }
