@@ -93,5 +93,5 @@ MIT License — дозволено вільне використання, змі
 ## 📬 Зв’язок
 
 Ідеї, питання чи помилки — пишіть!  
-**GitHub**: [github.com/yourprofile/logger-unity]  
+**GitHub**: https://github.com/AndriiSviatenko/Logger-Lightweight-Flexible-Debugging-Tool-for-Unity 
 **Email**: your.email@example.com
