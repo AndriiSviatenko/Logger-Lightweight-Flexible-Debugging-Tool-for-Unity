@@ -83,3 +83,756 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorSettingsElement.cs
+Packages/com.unity.asset-store-tools/CHANGELOG.md
+Packages/com.unity.asset-store-tools/CHANGELOG.md.meta
+Packages/com.unity.asset-store-tools/Editor.meta
+Packages/com.unity.asset-store-tools/Editor/Api.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/AuthenticationBase.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/AuthenticationBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreApi.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreApi.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreClient.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreClient.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAuthenticationType.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAuthenticationType.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IPackageUploader.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IPackageUploader.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/PackageUploaderBase.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/PackageUploaderBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/ApiUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Api/ApiUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreApi.cs
+Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreApi.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreClient.cs
+Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreClient.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/CloudTokenAuthentication.cs
+Packages/com.unity.asset-store-tools/Editor/Api/CloudTokenAuthentication.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/CredentialsAuthentication.cs
+Packages/com.unity.asset-store-tools/Editor/Api/CredentialsAuthentication.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Models.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Models/Category.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Models/Category.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Models/Package.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Models/Package.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Models/PackageAdditionalData.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Models/PackageAdditionalData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Models/User.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Models/User.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreToolsVersionResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreToolsVersionResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AuthenticationResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/AuthenticationResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/CategoryDataResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/CategoryDataResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesAdditionalDataResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesAdditionalDataResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesDataResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesDataResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageThumbnailResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageThumbnailResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageUploadedUnityVersionDataResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageUploadedUnityVersionDataResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/RefreshedPackageDataResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/RefreshedPackageDataResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/UploadResponse.cs
+Packages/com.unity.asset-store-tools/Editor/Api/Responses/UploadResponse.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/SessionAuthentication.cs
+Packages/com.unity.asset-store-tools/Editor/Api/SessionAuthentication.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/UnityPackageUploader.cs
+Packages/com.unity.asset-store-tools/Editor/Api/UnityPackageUploader.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Api/UploadStatus.cs
+Packages/com.unity.asset-store-tools/Editor/Api/UploadStatus.cs.meta
+Packages/com.unity.asset-store-tools/Editor/AssemblyInfo.cs
+Packages/com.unity.asset-store-tools/Editor/AssemblyInfo.cs.meta
+Packages/com.unity.asset-store-tools/Editor/AssetStoreTools.cs
+Packages/com.unity.asset-store-tools/Editor/AssetStoreTools.cs.meta
+Packages/com.unity.asset-store-tools/Editor/AssetStoreToolsWindow.cs
+Packages/com.unity.asset-store-tools/Editor/AssetStoreToolsWindow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Constants.cs
+Packages/com.unity.asset-store-tools/Editor/Constants.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPackageExporter.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPackageExporter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPreviewInjector.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPreviewInjector.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterBase.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultExporterSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultExporterSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultPackageExporter.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultPackageExporter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyExporterSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyExporterSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyPackageExporter.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyPackageExporter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/PackageExporterResult.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/PackageExporterResult.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Exporter/PreviewInjector.cs
+Packages/com.unity.asset-store-tools/Editor/Exporter/PreviewInjector.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/CustomPreviewGenerationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/CustomPreviewGenerationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/FileNameFormat.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/FileNameFormat.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/GenerationType.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/GenerationType.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/NativePreviewGenerationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/NativePreviewGenerationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewDatabase.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewDatabase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewFormat.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewFormat.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationResult.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationResult.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewMetadata.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewMetadata.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannel.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannel.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannelCoordinate.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannelCoordinate.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/ISceneScreenshotter.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/ISceneScreenshotter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MaterialScreenshotter.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MaterialScreenshotter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MeshScreenshotter.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MeshScreenshotter.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterBase.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypeGeneratorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypeGeneratorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ITypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ITypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/MaterialTypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/MaterialTypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ModelTypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ModelTypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/PrefabTypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/PrefabTypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypeGeneratorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypeGeneratorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypeGeneratorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypeGeneratorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorBase.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromScene.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromScene.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromSceneSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromSceneSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/CustomPreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/CustomPreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/IPreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/IPreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/NativePreviewGenerator.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/NativePreviewGenerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/PreviewGeneratorBase.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/PreviewGeneratorBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/CachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/CachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/ICachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/ICachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/IPreviewService.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/IPreviewService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/PreviewServiceProvider.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/PreviewServiceProvider.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreview.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreview.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreviewCollection.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreviewCollection.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreview.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreview.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreviewCollection.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreviewCollection.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IPreviewGeneratorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IPreviewGeneratorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/PreviewGeneratorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/PreviewGeneratorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/AssetPreviewElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/AssetPreviewElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/GridListElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/GridListElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewCollectionElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewCollectionElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGenerateButtonElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGenerateButtonElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorPathsElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorPathsElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorSettingsElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorSettingsElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewWindowDescriptionElement.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewWindowDescriptionElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/PreviewGeneratorWindow.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/PreviewGeneratorWindow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Views.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Views/PreviewListView.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Views/PreviewListView.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/GraphicsUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/GraphicsUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewConvertUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewConvertUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewSceneUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewSceneUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipeline.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipeline.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipelineUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipelineUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Previews/Styles/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Unity.AssetStoreTools.Editor.asmdef
+Packages/com.unity.asset-store-tools/Editor/Unity.AssetStoreTools.Editor.asmdef.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/account-dark.png
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/account-dark.png.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/account-light.png
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/account-light.png.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/open-in-browser.png
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/open-in-browser.png.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher-portal-dark.png
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher-portal-dark.png.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher-portal-light.png
+Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher-portal-light.png.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackage.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackage.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageContent.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageContent.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageGroup.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageGroup.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflow.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflowServices.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflowServices.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/WorkflowBase.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/WorkflowBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/AssetsWorkflow.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/AssetsWorkflow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/HybridPackageWorkflow.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/HybridPackageWorkflow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Package.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Package.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageContent.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageContent.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageGroup.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageGroup.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageSorting.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageSorting.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetPath.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetPath.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetsWorkflowStateData.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetsWorkflowStateData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/HybridPackageWorkflowState.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/HybridPackageWorkflowState.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/UnityPackageWorkflowStateData.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/UnityPackageWorkflowStateData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/WorkflowStateData.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/WorkflowStateData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/UnityPackageWorkflow.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/UnityPackageWorkflow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/WorkflowServices.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/WorkflowServices.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/AnalyticsService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/AnalyticsService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/AuthenticationAnalytic.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/AuthenticationAnalytic.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/BaseAnalytic.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/BaseAnalytic.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalytic.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalytic.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalyticData.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalyticData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/PackageUploadAnalytic.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/PackageUploadAnalytic.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/ValidationResultsSerializer.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/ValidationResultsSerializer.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/IAnalyticsService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/IAnalyticsService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/AuthenticationService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/AuthenticationService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IAuthenticationService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IAuthenticationService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageDownloadingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageDownloadingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageUploadingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageUploadingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageDownloadingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageDownloadingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageUploadingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageUploadingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/CachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/CachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/ICachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/ICachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/IUploaderService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/IUploaderService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/IPackageFactoryService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/IPackageFactoryService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/PackageFactoryService.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/PackageFactoryService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/UploaderServiceProvider.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/UploaderServiceProvider.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/ValidationElementBase.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/ValidationElementBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/WorkflowElementBase.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/WorkflowElementBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AccountToolbar.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AccountToolbar.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AssetsWorkflowElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AssetsWorkflowElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/CurrentProjectValidationElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/CurrentProjectValidationElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/ExternalProjectValidationElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/ExternalProjectValidationElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/HybridPackageWorkflowElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/HybridPackageWorkflowElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/LoadingSpinner.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/LoadingSpinner.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/MultiToggleSelectionElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/MultiToggleSelectionElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageContentElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageContentElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageGroupElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageGroupElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageListToolbar.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageListToolbar.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageUploadElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageUploadElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PathSelectionElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PathSelectionElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PreviewGenerationElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PreviewGenerationElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/UnityPackageWorkflowElement.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/UnityPackageWorkflowElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/LoginView.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/LoginView.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/PackageListView.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/PackageListView.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/LoginView/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/PackageListView/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Uploader/Styles/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Uploader/UploaderWindow.cs
+Packages/com.unity.asset-store-tools/Editor/Uploader/UploaderWindow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/ASDebug.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/ASDebug.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsPreferences.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsPreferences.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsUpdater.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsUpdater.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/CacheUtil.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/CacheUtil.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/FileUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/FileUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/LegacyToolsRemover.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/LegacyToolsRemover.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/PackageUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/PackageUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/ServiceProvider.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/ServiceProvider.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Utility/Styles/Updater/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/StyleSelector.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/StyleSelector.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Utility/SymlinkUtil.cs
+Packages/com.unity.asset-store-tools/Editor/Utility/SymlinkUtil.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/error.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/error.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/error_d.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/error_d.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/success.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/success.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/success_d.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/success_d.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/undefined.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/undefined.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/undefined_d.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/undefined_d.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/warning.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/warning.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/warning_d.png
+Packages/com.unity.asset-store-tools/Editor/Validator/Icons/warning_d.png.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/CategoryEvaluator.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/CategoryEvaluator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/ValidatorCategory.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/ValidatorCategory.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/CurrentProjectValidator.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/CurrentProjectValidator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/CurrentProjectValidationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/CurrentProjectValidationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ExternalProjectValidationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ExternalProjectValidationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/HighlightObjectAction.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/HighlightObjectAction.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/IMessageAction.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/IMessageAction.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/OpenAssetAction.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/OpenAssetAction.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResult.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResult.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultMessage.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultMessage.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultObject.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultObject.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultStatus.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultStatus.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationResult.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationResult.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationStatus.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationStatus.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationType.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationType.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ExternalProjectValidator.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ExternalProjectValidator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/IValidator.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/IValidator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/CachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/CachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/ICachingService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/ICachingService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/PreviewDatabaseContractResolver.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/PreviewDatabaseContractResolver.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/IValidatorService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/IValidatorService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IAssetUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IAssetUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IFileSignatureUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IFileSignatureUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IMeshUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IMeshUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IModelUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IModelUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/ISceneUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/ISceneUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IScriptUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IScriptUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/AssetUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/AssetUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/ArchiveType.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/ArchiveType.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetEnumerator.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetEnumerator.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetType.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetType.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/LogEntry.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/LogEntry.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/FileSignatureUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/FileSignatureUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/MeshUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/MeshUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ModelUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ModelUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/SceneUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/SceneUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ScriptUtilityService.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ScriptUtilityService.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/ValidatorServiceProvider.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/ValidatorServiceProvider.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/AutomatedTest.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/AutomatedTest.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/GenericTestConfig.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/GenericTestConfig.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestConfig.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestConfig.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestScript.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestScript.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/AutomatedTestScriptableObject.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/AutomatedTestScriptableObject.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/Editor.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/Editor/ValidationTestScriptableObjectInspector.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/Editor/ValidationTestScriptableObjectInspector.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/ValidationTestScriptableObject.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/ValidationTestScriptableObject.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ValidationTest.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ValidationTest.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAnimationClips.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAnimationClips.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAudioClipping.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAudioClipping.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckColliders.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckColliders.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckCompressedFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckCompressedFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckEmptyPrefabs.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckEmptyPrefabs.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckFileMenuNames.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckFileMenuNames.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLineEndings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLineEndings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLODs.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLODs.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMeshPrefabs.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMeshPrefabs.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinAssets.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinAssets.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinScenes.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinScenes.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelImportLogs.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelImportLogs.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelOrientation.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelOrientation.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelTypes.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelTypes.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckNormalMapTextures.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckNormalMapTextures.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPackageNaming.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPackageNaming.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckParticleSystems.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckParticleSystems.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPathLengths.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPathLengths.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPrefabTransforms.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPrefabTransforms.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckScriptCompilation.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckScriptCompilation.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckShaderCompilation.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckShaderCompilation.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTextureDimensions.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTextureDimensions.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTypeNamespaces.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTypeNamespaces.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveExecutableFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveExecutableFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJavaScriptFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJavaScriptFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJPGFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJPGFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveLossyAudioFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveLossyAudioFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveMixamoFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveMixamoFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveSpeedTreeFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveSpeedTreeFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveVideoFiles.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveVideoFiles.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDemoScenes.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDemoScenes.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDocumentation.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDocumentation.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckPackageSize.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckPackageSize.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckProjectTemplateAssets.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckProjectTemplateAssets.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorResults.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorResults.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTest.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTest.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTestGroup.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTestGroup.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateData.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateData.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateDataContractResolver.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateDataContractResolver.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateResults.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateResults.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorResults.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorResults.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorSettings.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorSettings.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTest.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTest.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTestGroup.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTestGroup.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorButtonElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorButtonElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorDescriptionElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorDescriptionElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorPathsElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorPathsElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorResultsElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorResultsElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorSettingsElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestGroupElement.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestGroupElement.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/ValidatorWindow.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/ValidatorWindow.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Views.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Views/ValidatorTestsView.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Views/ValidatorTestsView.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Utility.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Utility/ValidatorUtility.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Utility/ValidatorUtility.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ValidatorBase.cs
+Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ValidatorBase.cs.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/Style.uss
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/Style.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/ThemeDark.uss
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/ThemeDark.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/ThemeLight.uss
+Packages/com.unity.asset-store-tools/Editor/Validator/Styles/ThemeLight.uss.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Animation Clips.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Animation Clips.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Audio Clipping.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Audio Clipping.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Colliders.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Colliders.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Compressed Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Compressed Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Empty Prefabs.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Empty Prefabs.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check File Menu Names.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check File Menu Names.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Line Endings.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Line Endings.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check LODs.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check LODs.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Mesh Prefabs.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Mesh Prefabs.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Missing Components in Assets.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Missing Components in Assets.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Missing Components in Scenes.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Missing Components in Scenes.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Import Logs.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Import Logs.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Orientation.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Orientation.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Types.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Model Types.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Normal Map Textures.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Normal Map Textures.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Package Naming.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Package Naming.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Particle Systems.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Particle Systems.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Path Lengths.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Path Lengths.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Prefab Transforms.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Prefab Transforms.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Script Compilation.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Script Compilation.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Shader Compilation.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Shader Compilation.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Texture Dimensions.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Texture Dimensions.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Type Namespaces.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Check Type Namespaces.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Executable Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Executable Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove JavaScript Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove JavaScript Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove JPG Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove JPG Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Lossy Audio Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Lossy Audio Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Mixamo Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Mixamo Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove SpeedTree Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove SpeedTree Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Video Files.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/Generic/Remove Video Files.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Demo Scenes.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Demo Scenes.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Documentation.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Documentation.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Package Size.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Package Size.asset.meta
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Project Template Assets.asset
+Packages/com.unity.asset-store-tools/Editor/Validator/Tests/UnityPackage/Check Project Template Assets.asset.meta
+Packages/com.unity.asset-store-tools/LICENSE.md
+Packages/com.unity.asset-store-tools/LICENSE.md.meta
+Packages/com.unity.asset-store-tools/package.json
+Packages/com.unity.asset-store-tools/package.json.meta
+Packages/packages-lock.json
