@@ -33,11 +33,6 @@ Customize logging via the `LoggerConfig` asset:
 - **Editor Only** — Logs will appear only in the Unity Editor
 - **Category Configuration** — Set up custom categories with colors and emojis
 
-You can also modify the logger at runtime:
-```csharp
-Logger.Enabled = true;
-```
-
 ---
 
 ## 🧑‍💻 Usage
