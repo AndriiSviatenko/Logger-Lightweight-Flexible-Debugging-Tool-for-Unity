@@ -64,12 +64,23 @@ LoggerExample.Awake:13
 ```
 LoggerLogic/
 ├── Config/
-│   └── LoggerConfig.asset
+│   ├── LoggerConfig.asset
+│   └── LoggerConfig.cs
+├── Documentation/
+│   ├── License
+│   ├── ReadMe.md
+│   ├── ReadMe.pdf
+│   └── ReadMe_UA.md
 ├── Editor/
+│   ├── LoggerConfigEditor.cs
+│   └── SerializedPropertyExtensions.cs
 ├── Example/
+│   └── LoggerExample.cs
+├── Runtime/
+│   ├── CustomLogger.cs
+│   └── LogCategory.cs
 ├── Scenes/
-├── CustomLogger.cs
-├── LogCategory.cs
+│   └── Demo.scene
 ```
 
 ---
