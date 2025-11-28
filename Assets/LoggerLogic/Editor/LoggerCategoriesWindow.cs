@@ -68,7 +68,7 @@ namespace Azen.Logger
                 GUILayout.FlexibleSpace();
                 if (GUILayout.Button("📖 Documentation", GUILayout.Width(150)))
                 {
-                    Application.OpenURL("https://github.com/yourrepo/logger-docs");
+                    Application.OpenURL("https://github.com/AndriiSviatenko/Logger-Lightweight-Flexible-Debugging-Tool-for-Unity/blob/main/Assets/LoggerLogic/Documentation/README.md");
                 }
                 if (GUILayout.Button("🔄 Refresh", GUILayout.Width(100)))
                 {
