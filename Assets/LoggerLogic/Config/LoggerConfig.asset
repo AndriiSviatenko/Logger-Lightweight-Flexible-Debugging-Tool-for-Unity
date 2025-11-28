@@ -16,7 +16,7 @@ MonoBehaviour:
   EditorOnly: 1
   categories:
   - Category: 0
-    Enabled: 1
+    Enabled: 0
     TagColor: {r: 1, g: 1, b: 1, a: 1}
     Emoji: ^
   - Category: 1
@@ -27,22 +27,10 @@ MonoBehaviour:
     Enabled: 1
     TagColor: {r: 0, g: 1, b: 0, a: 1}
     Emoji: "\U0001F5A5\uFE0F"
-  - Category: 3
-    Enabled: 1
-    TagColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    Emoji: "\U0001F310"
   - Category: 4
     Enabled: 1
     TagColor: {r: 1, g: 0.5, b: 0, a: 1}
     Emoji: "\U0001F3AE"
-  - Category: 5
-    Enabled: 1
-    TagColor: {r: 1, g: 0, b: 1, a: 1}
-    Emoji: "\U0001F50A"
-  - Category: 6
-    Enabled: 1
-    TagColor: {r: 1, g: 0, b: 0, a: 1}
-    Emoji: "\u274C"
   - Category: 7
     Enabled: 1
     TagColor: {r: 1, g: 0.8, b: 0, a: 1}
@@ -50,4 +38,32 @@ MonoBehaviour:
   - Category: 8
     Enabled: 1
     TagColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    Emoji: "\U0001F4DD"
+  - Category: 9
+    Enabled: 1
+    TagColor: {r: 0.5, g: 0.5, b: 1, a: 1}
+    Emoji: "\U0001F4CA"
+  - Category: 10
+    Enabled: 1
+    TagColor: {r: 1, g: 0.5, b: 1, a: 1}
+    Emoji: "\U0001F3AF"
+  - Category: 12
+    Enabled: 1
+    TagColor: {r: 0.990566, g: 0, b: 0, a: 1}
+    Emoji: "\U0001F4DD"
+  - Category: 11
+    Enabled: 1
+    TagColor: {r: 1, g: 0.8, b: 0, a: 1}
+    Emoji: "\u26A0\uFE0F"
+  - Category: 3
+    Enabled: 1
+    TagColor: {r: 1, g: 0, b: 0.5, a: 1}
+    Emoji: "\U0001F4DD"
+  - Category: 5
+    Enabled: 1
+    TagColor: {r: 0, g: 1, b: 1, a: 1}
+    Emoji: "\U0001F4DD"
+  - Category: 6
+    Enabled: 1
+    TagColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
     Emoji: "\U0001F4DD"

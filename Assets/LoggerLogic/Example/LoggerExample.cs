@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
 
 namespace Azen.Logger
 {
@@ -9,21 +10,25 @@ namespace Azen.Logger
 
         private void Awake()
         {
-            // Init Cfg
             CustomLogger.Config = loggerConfig;
 
-            // Example Log
-            CustomLogger.Log("This is a system log", CustomLogger.LogCategory.System);
-            CustomLogger.LogWarning("UI warning", CustomLogger.LogCategory.UI);
-            CustomLogger.LogError("Gameplay error", CustomLogger.LogCategory.Gameplay);
+            CustomLogger.Log("System initialized", LogCategory.System);
+
+            CustomLogger.LogWarning("Low memory warning", LogCategory.Warning);
+
+            CustomLogger.LogError("Failed to connect", LogCategory.Network);
+
+            CustomLogger.Log("Player spawned", LogCategory.Gameplay);
+            CustomLogger.Log("UI element created", LogCategory.UI);
 
             Vector3 position = transform.position;
-            CustomLogger.Log(position, CustomLogger.LogCategory.Other);
+            CustomLogger.Log(position, LogCategory.Other);
 
-            // Mark Log
-            CustomLogger.Mark("Start Game Flow", CustomLogger.LogCategory.Gameplay);
+            CustomLogger.Mark("Start Game Flow", LogCategory.Analytics);
+            CustomLogger.Mark("Low memory", LogCategory.Analytics);
+            CustomLogger.Mark("Player", LogCategory.Analytics);
+            CustomLogger.Mark("UI element", LogCategory.Analytics);
         }
     }
 }
-
 

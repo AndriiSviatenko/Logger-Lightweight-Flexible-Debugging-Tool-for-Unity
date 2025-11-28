@@ -2,15 +2,24 @@
 using System.Runtime.CompilerServices;
 using System.IO;
 using System;
+using System.Text;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace Azen.Logger
 {
-    public static partial class CustomLogger
+    public static class CustomLogger
     {
         private const string DefaultEmoji = "📝";
         private const string DefaultColor = "#FFFFFF";
+        private const int StringBuilderInitialCapacity = 256;
 
         private static readonly object LockObject = new object();
+        private static readonly Regex RichTextRegex = new Regex("<.*?>", RegexOptions.Compiled);
+
+        private static readonly Dictionary<string, string> FileNameCache = new Dictionary<string, string>(32);
+        private static readonly StringBuilder SharedStringBuilder = new StringBuilder(StringBuilderInitialCapacity);
+
         private static string logFilePath;
         private static string lastMessage = "";
         private static int repeatCount = 0;
@@ -100,10 +109,9 @@ namespace Azen.Logger
             Initialize();
 
             var (emoji, color) = GetLogDecorators(category);
-            var origin = Path.GetFileNameWithoutExtension(filePath);
-            var location = $"{origin}.{memberName}:{lineNumber}";
+            var fileName = GetCachedFileName(filePath);
 
-            var finalMessage = FormatMessage(message, emoji, color, category, location);
+            var finalMessage = FormatMessage(message, emoji, color, category, fileName, memberName, lineNumber);
             HandleMessageRepeats(finalMessage, type);
         }
 
@@ -126,11 +134,44 @@ namespace Azen.Logger
             );
         }
 
-        private static string FormatMessage(string message, string emoji, string color,
-            LogCategory category, string location)
+        private static string GetCachedFileName(string filePath)
         {
-            var categoryTag = $"<color={color}>[{category}]</color>";
-            return $"{emoji} {categoryTag} {message}\n<color=#888888><i>{location}</i></color>";
+            if (FileNameCache.TryGetValue(filePath, out var cached))
+                return cached;
+
+            var fileName = Path.GetFileNameWithoutExtension(filePath);
+
+            if (FileNameCache.Count > 100)
+                FileNameCache.Clear();
+
+            FileNameCache[filePath] = fileName;
+            return fileName;
+        }
+
+        private static string FormatMessage(string message, string emoji, string color,
+            LogCategory category, string fileName, string memberName, int lineNumber)
+        {
+            lock (SharedStringBuilder)
+            {
+                SharedStringBuilder.Clear();
+
+                SharedStringBuilder.Append(emoji);
+                SharedStringBuilder.Append(" <color=");
+                SharedStringBuilder.Append(color);
+                SharedStringBuilder.Append(">[");
+                SharedStringBuilder.Append(category.ToString());
+                SharedStringBuilder.Append("]</color> ");
+                SharedStringBuilder.Append(message);
+                SharedStringBuilder.Append("\n<color=#888888><i>");
+                SharedStringBuilder.Append(fileName);
+                SharedStringBuilder.Append('.');
+                SharedStringBuilder.Append(memberName);
+                SharedStringBuilder.Append(':');
+                SharedStringBuilder.Append(lineNumber);
+                SharedStringBuilder.Append("</i></color>");
+
+                return SharedStringBuilder.ToString();
+            }
         }
 
         private static void HandleMessageRepeats(string finalMessage, LogType type)
@@ -193,7 +234,18 @@ namespace Azen.Logger
 
         private static string StripRichTextTags(string input)
         {
-            return System.Text.RegularExpressions.Regex.Replace(input, "<.*?>", string.Empty);
+            return RichTextRegex.Replace(input, string.Empty);
+        }
+
+        /// <summary>
+        /// Очищає кеш файлових імен (для тестування або оптимізації пам'яті)
+        /// </summary>
+        public static void ClearCache()
+        {
+            lock (LockObject)
+            {
+                FileNameCache.Clear();
+            }
         }
         #endregion
     }
